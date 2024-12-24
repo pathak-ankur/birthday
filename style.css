@@ -1,15 +1,17 @@
 body {
     overflow: hidden;
     font-family: "Roboto", serif;
-    background: linear-gradient(135deg, black, #220033);
+    /* background: linear-gradient(135deg, black, #220033); */
+    border: 2px solid blue;
   }
   
   .carousel {
     position: relative;
-    z-index: 1;
+    z-index: 1000;
     height: 100vh;
     overflow: hidden;
     pointer-events: none;
+    border: 2px solid red;
   }
   
   .carousel-item {
@@ -195,3 +197,56 @@ body {
     font-weight: inherit;
     font-style: inherit;
   }
+
+  
+.birthday-container {
+  display: flex;
+border: 3px solid blueviolet;
+
+}
+
+#happy-birthday {
+  font-size: 48px;
+  color: #70cead;
+  margin-bottom: 20px;
+  padding-left: 33%;
+ 
+  font-family: 'Brush Script MT', 'Lucida Handwriting', 'Comic Sans MS', cursive;
+  font-size: 70px;
+  font-style: italic; 
+  
+}
+.quotes{
+  color: white;
+  width: 30%;
+}
+/* #quots{
+  font-size: 48px;
+  color: #70cead;
+  margin-bottom: 20px;
+  padding-left: 33%;
+  font-family: 'Brush Script MT', 'Lucida Handwriting', 'Comic Sans MS', cursive;
+  font-size: 70px;
+  font-style: italic;
+  display: flex;
+  width: 100%;
+  border: 1px solid rebeccapurple;
+  flex-wrap: wrap;
+  padding: 10px;
+  
+
+  width: 70%;
+    border: 2px solid rebeccapurple;
+    padding: 5px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: rgba(154, 14, 219, 0.24) 0px 3px 8px;
+    
+  
+} */
+
+  font-family: 'Brush Script MT', 'Lucida Handwriting', 'Comic Sans MS', cursive;
+  font-size: 24px;
+  font-style: italic; 
+
+
