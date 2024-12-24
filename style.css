@@ -3,13 +3,47 @@ body {
     font-family: "Roboto", serif;
     background: linear-gradient(135deg, black, #220033);
   }
-  
+  video{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+  h1{
+    text-align: center;
+    margin-top: 30px;
+    color: white ;
+    z-index: 100;
+    position: relative;
+  }
+  .cont{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .qoutes{
+    /* position: relative;
+    z-index: 100; */
+    width: 20%;
+    /* border: 2px solid blue; */
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    /* padding: 30px; */
+    max-height: 100px;
+    margin-right: 30px;
+    
+  }
   .carousel {
+    /* border: 2px solid red; */
     position: relative;
     z-index: 1;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     pointer-events: none;
+    width: 85%;
   }
   
   .carousel-item {
