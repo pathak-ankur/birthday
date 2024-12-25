@@ -22,7 +22,7 @@ body {
   }
   .cont{
     font-family: MV Boli;
-  
+    
     display: flex;
     flex-direction: row-reverse;
   }
@@ -34,12 +34,12 @@ body {
     /* border: 2px solid blue; */
     color: rgb(255, 255, 255);
     border-radius: 20px;
-    text-align: left;
+    text-align: right;
     font-size: large;
     font-weight: bold;
    padding-top: 70%;
     max-height: 100px;
-    margin-right: 1px;
+    
     
   }
   .carousel {
