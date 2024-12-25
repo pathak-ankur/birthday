@@ -11,7 +11,7 @@ body {
     z-index: -1;
 }
   h1{
-
+  padding-right: 10%;
     font-family: Brush Script MT;
     font-size: xx-large;
     text-align: right;
@@ -37,7 +37,7 @@ body {
     text-align: left;
     font-size: large;
     font-weight: bold;
-    padding: 30px;
+   padding-bottom: 50%;
     max-height: 100px;
     margin-right: 1px;
     
