@@ -27,13 +27,14 @@ body {
     flex-direction: row-reverse;
   }
   .qoutes{
+    display: flex;
     /* position: relative; */
     /* z-index: 100; */ 
     width: 100%;
     /* border: 2px solid blue; */
     color: rgb(255, 255, 255);
     border-radius: 20px;
-    text-align: center;
+    text-align: left;
     font-size: large;
     font-weight: bold;
     padding: 30px;
